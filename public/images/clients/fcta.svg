@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 80" fill="none">
+  <!-- FCTA Seal -->
+  <g transform="translate(12, 8)">
+    <circle cx="32" cy="32" r="30" fill="#008751" fill-opacity="0.08" stroke="#008751" stroke-width="2"/>
+    <circle cx="32" cy="32" r="24" fill="#FFFFFF" stroke="#D4AF37" stroke-width="1.5"/>
+    <!-- Zuma Rock landmark silhouette inside circle -->
+    <path d="M18 42 C20 30 26 22 32 22 C38 22 44 30 46 42 Z" fill="#0B2545"/>
+    <path d="M22 42 L42 42" stroke="#D4AF37" stroke-width="2"/>
+    <!-- Sunburst / Star -->
+    <circle cx="32" cy="16" r="2.5" fill="#D4AF37"/>
+  </g>
+  <!-- Typography -->
+  <text x="82" y="34" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="20" fill="#008751" letter-spacing="0.05em">FCTA</text>
+  <text x="82" y="48" font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="9.5" fill="#0B2545" letter-spacing="0.03em">FEDERAL CAPITAL TERRITORY</text>
+  <text x="82" y="60" font-family="system-ui, -apple-system, sans-serif" font-weight="600" font-size="8.5" fill="#6B7075" letter-spacing="0.06em">ADMINISTRATION · ABUJA</text>
+</svg>

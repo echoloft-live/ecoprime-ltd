@@ -84,7 +84,7 @@ export default function Hero() {
 
           {/* Stats strip */}
           <div
-            className="grid grid-cols-2 sm:grid-cols-4 pt-6 border-t border-white/16 reveal reveal--in"
+            className="grid grid-cols-2 gap-x-3 gap-y-5 sm:grid-cols-4 sm:gap-x-0 sm:gap-y-0 pt-6 border-t border-white/16 reveal reveal--in"
             style={{ transitionDelay: '0.4s' }}
           >
             {[
@@ -95,12 +95,14 @@ export default function Hero() {
             ].map(({ label, desc }) => (
               <div
                 key={label}
-                className="min-w-0 px-3 py-2 text-[12px] font-semibold leading-relaxed text-white/78 border-l border-white/14 first:border-l-0 first:pl-0 sm:px-4 sm:py-0 sm:text-[13px] sm:first:pl-0 sm:last:pr-0 [&:nth-child(3)]:border-l-0 sm:[&:nth-child(3)]:border-l"
+                className="min-w-0 text-[12px] font-semibold leading-relaxed text-white/78 sm:py-0 sm:text-[13px] sm:px-4 sm:border-l sm:border-white/14 sm:first:border-l-0 sm:first:pl-0 sm:last:pr-0 [&:nth-child(odd)]:pl-0 [&:nth-child(odd)]:pr-3 [&:nth-child(odd)]:border-l-0 [&:nth-child(even)]:pl-3.5 [&:nth-child(even)]:pr-0 [&:nth-child(even)]:border-l [&:nth-child(even)]:border-white/14"
               >
-                <strong className="block font-heading text-[15px] text-white mb-0.5">
+                <strong className="block font-heading text-[14.5px] sm:text-[15px] text-white mb-1 tracking-[0.01em]">
                   {label}
                 </strong>
-                {desc}
+                <span className="block text-white/78 leading-snug">
+                  {desc}
+                </span>
               </div>
             ))}
           </div>

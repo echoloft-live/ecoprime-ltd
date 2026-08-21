@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 80" fill="none">
+  <!-- Arutoms Emblem -->
+  <g transform="translate(14, 10)">
+    <!-- Hexagon Shield -->
+    <path d="M30 4 L54 18 L54 44 L30 58 L6 44 L6 18 Z" fill="#0B2545"/>
+    <path d="M30 10 L48 21 L48 41 L30 52 L12 41 L12 21 Z" fill="#FFFFFF"/>
+    <!-- Integrated chevron icon -->
+    <path d="M22 36 L30 20 L38 36" stroke="#008751" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M24 40 L30 32 L36 40" stroke="#8DC63F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <!-- Typography -->
+  <text x="76" y="34" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="18" fill="#0B2545" letter-spacing="0.06em">ARUTOMS</text>
+  <text x="76" y="48" font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="9" fill="#008751" letter-spacing="0.04em">INTEGRATED SERVICE</text>
+  <text x="76" y="59" font-family="system-ui, -apple-system, sans-serif" font-weight="600" font-size="8.5" fill="#6B7075" letter-spacing="0.06em">NIGERIA LIMITED</text>
+</svg>

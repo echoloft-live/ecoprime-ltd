@@ -17,6 +17,8 @@ export default function RealEstate() {
             alt="ECOPRIME real estate, modern residential development under construction"
             className="absolute inset-0 w-full h-full object-cover"
             loading="lazy"
+            width="928"
+            height="1152"
           />
           <div
             className="absolute inset-0 pointer-events-none"

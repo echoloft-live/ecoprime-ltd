@@ -1,11 +1,53 @@
-const clients = [
-  'State House',
-  'Federal Capital Territory Administration (FCTA)',
-  'Sublime Oil and Gas',
-  'Zeaxel Oil and Gas',
-  'CIIN (Chuxter Investment Int\'l Nigeria Ltd.)',
-  'Arutoms Integrated Service Nig. Ltd.',
-  'UPDC',
+interface ClientItem {
+  name: string;
+  category: string;
+  logo: string;
+  alt: string;
+}
+
+const clients: ClientItem[] = [
+  {
+    name: 'State House',
+    category: 'Presidency of Nigeria',
+    logo: '/images/clients/state-house.svg',
+    alt: 'State House Nigeria - Federal Republic of Nigeria',
+  },
+  {
+    name: 'Federal Capital Territory Administration (FCTA)',
+    category: 'Municipal Administration',
+    logo: '/images/clients/fcta.svg',
+    alt: 'Federal Capital Territory Administration (FCTA) Abuja',
+  },
+  {
+    name: 'Sublime Oil and Gas',
+    category: 'Energy & Petrochemicals',
+    logo: '/images/clients/sublime-oil.svg',
+    alt: 'Sublime Oil & Gas Limited',
+  },
+  {
+    name: 'Zeaxel Oil and Gas',
+    category: 'Oil & Gas Solutions',
+    logo: '/images/clients/zeaxel-oil.svg',
+    alt: 'Zeaxel Oil & Gas Ltd',
+  },
+  {
+    name: 'CIIN (Chuxter Investment Int\'l Nigeria Ltd.)',
+    category: 'Investment & Advisory',
+    logo: '/images/clients/chuxter-ciin.svg',
+    alt: 'CIIN - Chuxter Investment International Nigeria Limited',
+  },
+  {
+    name: 'Arutoms Integrated Service Nig. Ltd.',
+    category: 'Integrated Services',
+    logo: '/images/clients/arutoms.svg',
+    alt: 'Arutoms Integrated Service Nigeria Limited',
+  },
+  {
+    name: 'UPDC',
+    category: 'Property Development PLC',
+    logo: '/images/clients/updc.svg',
+    alt: 'UPDC PLC - Property Development Company',
+  },
 ];
 
 export default function Clients() {
@@ -15,19 +57,37 @@ export default function Clients() {
         {/* Section header */}
         <div className="sec-head sec-head--center reveal">
           <span className="eyebrow">Our Clientele</span>
-          <h2>Organizations we&apos;ve worked with</h2>
+          <h2>Organizations we have worked with</h2>
         </div>
 
         {/* Client tiles */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4.5 reveal">
-          {clients.map((client) => (
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 reveal">
+          {clients.map(({ name, category, logo, alt }) => (
             <div
-              key={client}
-              className="bg-white border border-line rounded-xl py-7 px-5 flex items-center justify-center text-center min-h-[100px] shadow-tight"
+              key={name}
+              className="bg-white border border-line rounded-xl p-6 flex flex-col items-center justify-between text-center min-h-[145px] shadow-tight transition-all duration-300 hover:-translate-y-1 hover:shadow-soft hover:border-lime/50 group"
             >
-              <span className="font-heading font-extrabold text-[14.5px] text-blue-deep tracking-[0.01em]">
-                {client}
-              </span>
+              {/* Client Logo Image */}
+              <div className="w-full h-14 flex items-center justify-center mb-3">
+                <img
+                  src={logo}
+                  alt={alt}
+                  className="max-h-12 w-auto max-w-[210px] object-contain transition-transform duration-300 group-hover:scale-105"
+                  loading="lazy"
+                  width="210"
+                  height="48"
+                />
+              </div>
+
+              {/* Client Name & Category Details */}
+              <div className="w-full pt-2 border-t border-gray-light">
+                <span className="block font-heading font-extrabold text-[13.5px] text-blue-deep tracking-[0.01em] line-clamp-1">
+                  {name}
+                </span>
+                <span className="block text-[11px] font-semibold text-gray uppercase tracking-[0.05em] mt-0.5">
+                  {category}
+                </span>
+              </div>
             </div>
           ))}
         </div>

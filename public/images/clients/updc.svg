@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 80" fill="none">
+  <!-- UPDC Emblem -->
+  <g transform="translate(14, 10)">
+    <!-- Architectural Building Silhouette -->
+    <rect x="6" y="22" width="14" height="34" rx="2" fill="#800020"/>
+    <rect x="23" y="10" width="14" height="46" rx="2" fill="#0B2545"/>
+    <rect x="40" y="18" width="14" height="38" rx="2" fill="#D4AF37"/>
+    <!-- Windows lines -->
+    <line x1="10" y1="28" x2="16" y2="28" stroke="#FFFFFF" stroke-width="1.5"/>
+    <line x1="10" y1="36" x2="16" y2="36" stroke="#FFFFFF" stroke-width="1.5"/>
+    <line x1="27" y1="18" x2="33" y2="18" stroke="#FFFFFF" stroke-width="1.5"/>
+    <line x1="27" y1="26" x2="33" y2="26" stroke="#FFFFFF" stroke-width="1.5"/>
+    <line x1="27" y1="34" x2="33" y2="34" stroke="#FFFFFF" stroke-width="1.5"/>
+    <line x1="44" y1="26" x2="50" y2="26" stroke="#FFFFFF" stroke-width="1.5"/>
+    <line x1="44" y1="34" x2="50" y2="34" stroke="#FFFFFF" stroke-width="1.5"/>
+  </g>
+  <!-- Typography -->
+  <text x="76" y="35" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="22" fill="#0B2545" letter-spacing="0.08em">UPDC</text>
+  <text x="76" y="49" font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="9" fill="#800020" letter-spacing="0.04em">PROPERTY DEVELOPMENT</text>
+  <text x="76" y="60" font-family="system-ui, -apple-system, sans-serif" font-weight="600" font-size="8.5" fill="#6B7075" letter-spacing="0.06em">COMPANY PLC</text>
+</svg>

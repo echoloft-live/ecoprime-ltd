@@ -3,6 +3,7 @@ import { useState, useEffect, useCallback } from 'react';
 const NAV_LINKS = [
   { href: '#home', label: 'Home' },
   { href: '#about', label: 'About' },
+  { href: '#leadership', label: 'Leadership' },
   { href: '#services', label: 'Services' },
   { href: '#gas', label: 'Industries' },
   { href: '#specialties', label: 'Projects' },
@@ -58,7 +59,7 @@ export default function Header() {
 
         {/* Desktop nav */}
         <nav aria-label="Main navigation">
-          <ul className="hidden lg:flex gap-6 items-center">
+          <ul className="hidden lg:flex gap-4 xl:gap-6 items-center">
             {NAV_LINKS.map(({ href, label }) => (
               <li key={href}>
                 <a

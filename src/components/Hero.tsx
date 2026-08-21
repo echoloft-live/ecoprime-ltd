@@ -34,8 +34,8 @@ export default function Hero() {
         className="absolute bg-lime opacity-8"
         style={{
           width: '14%',
-          height: '70%',
-          top: '15%',
+          height: '120%',
+          top: '-10%',
           right: '16%',
           clipPath: 'polygon(8% 0, 100% 0, 92% 100%, 0% 100%)',
         }}
@@ -84,7 +84,7 @@ export default function Hero() {
 
           {/* Stats strip */}
           <div
-            className="flex flex-wrap gap-4 pt-6 border-t border-white/16 reveal reveal--in"
+            className="grid grid-cols-2 sm:grid-cols-4 pt-6 border-t border-white/16 reveal reveal--in"
             style={{ transitionDelay: '0.4s' }}
           >
             {[
@@ -95,7 +95,7 @@ export default function Hero() {
             ].map(({ label, desc }) => (
               <div
                 key={label}
-                className="text-[13px] font-semibold text-white/78 pr-0 mr-0 border-r-0 sm:pr-[38px] sm:mr-[38px] sm:border-r sm:border-white/14 last:border-r-0 last:mr-0"
+                className="min-w-0 px-3 py-2 text-[12px] font-semibold leading-relaxed text-white/78 border-l border-white/14 first:border-l-0 first:pl-0 sm:px-4 sm:py-0 sm:text-[13px] sm:first:pl-0 sm:last:pr-0 [&:nth-child(3)]:border-l-0 sm:[&:nth-child(3)]:border-l"
               >
                 <strong className="block font-heading text-[15px] text-white mb-0.5">
                   {label}

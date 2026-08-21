@@ -2,6 +2,7 @@ import { useEffect, useRef } from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import About from './components/About';
+import Leadership from './components/Leadership';
 import BusinessSolutions from './components/BusinessSolutions';
 import ProjectSpecialties from './components/ProjectSpecialties';
 import Gas from './components/Gas';
@@ -66,6 +67,7 @@ export default function App() {
       <main id="main-content">
         <Hero />
         <About />
+        <Leadership />
         <BusinessSolutions />
         <ProjectSpecialties />
         <Gas />

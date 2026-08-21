@@ -53,6 +53,8 @@ export default function Header() {
           <img
             src={scrolled ? '/images/logo.png' : '/images/logo-white.png'}
             alt="ECOPRIME Business Solution Ltd"
+            width="180"
+            height="34"
             className="h-[34px] w-auto"
           />
         </a>

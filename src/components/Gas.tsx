@@ -50,6 +50,8 @@ export default function Gas() {
               alt="ECOPRIME gas value chain, LPG storage tanks and cylinders at a gas facility"
               className="absolute inset-0 w-full h-full object-cover"
               loading="lazy"
+              width="928"
+              height="1152"
             />
             <div
               className="absolute inset-0 pointer-events-none"

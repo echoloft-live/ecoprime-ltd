@@ -22,6 +22,8 @@ export default function Footer() {
             <img
               src="/images/logo-white.png"
               alt="ECOPRIME Business Solution Ltd"
+              width="180"
+              height="34"
               className="mb-4 h-[34px] w-auto"
             />
             <p className="text-[13px] max-w-[280px] text-white/50">

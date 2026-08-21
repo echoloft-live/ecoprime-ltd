@@ -1,0 +1,21 @@
+{
+  "name": "ECOPRIME Business Solution Ltd",
+  "short_name": "ECOPRIME",
+  "description": "Business solutions that move organizations forward. Strategy, technology, process and organization consulting from Abuja, Nigeria.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0B2545",
+  "theme_color": "#0B2545",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}

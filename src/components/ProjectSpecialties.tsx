@@ -63,9 +63,11 @@ export default function ProjectSpecialties() {
               {/* Background photo */}
               <img
                 src={image}
-                alt={title}
+                alt={`ECOPRIME ${title} — ${description}`}
                 className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 loading="lazy"
+                width="928"
+                height="1152"
               />
 
               {/* Navy scrim for contrast */}

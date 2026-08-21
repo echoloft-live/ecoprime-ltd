@@ -33,13 +33,13 @@ const clients: ClientItem[] = [
   {
     name: 'CIIN (Chuxter Investment Int\'l Nigeria Ltd.)',
     category: 'Investment & Advisory',
-    logo: '/images/clients/chuxter-ciin.svg',
+    logo: '/images/clients/chuxter-ciin.png',
     alt: 'CIIN - Chuxter Investment International Nigeria Limited',
   },
   {
     name: 'Arutoms Integrated Service Nig. Ltd.',
     category: 'Integrated Services',
-    logo: '/images/clients/arutoms.svg',
+    logo: '/images/clients/arutoms.png',
     alt: 'Arutoms Integrated Service Nigeria Limited',
   },
   {

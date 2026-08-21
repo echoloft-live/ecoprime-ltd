@@ -67,7 +67,6 @@ export default function App() {
       <main id="main-content">
         <Hero />
         <About />
-        <Leadership />
         <BusinessSolutions />
         <ProjectSpecialties />
         <Gas />
@@ -76,6 +75,7 @@ export default function App() {
         <Training />
         <Clients />
         <Framework />
+        <Leadership />
         <Contact />
       </main>
 

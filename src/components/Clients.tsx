@@ -21,13 +21,13 @@ const clients: ClientItem[] = [
   {
     name: 'Sublime Oil and Gas',
     category: 'Energy & Petrochemicals',
-    logo: '/images/clients/sublime-oil.svg',
+    logo: '/images/clients/sublime-oil.png',
     alt: 'Sublime Oil & Gas Limited',
   },
   {
     name: 'Zeaxel Oil and Gas',
     category: 'Oil & Gas Solutions',
-    logo: '/images/clients/zeaxel-oil.svg',
+    logo: '/images/clients/zeaxel-oil.png',
     alt: 'Zeaxel Oil & Gas Ltd',
   },
   {

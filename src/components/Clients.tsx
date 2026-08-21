@@ -9,14 +9,14 @@ const clients: ClientItem[] = [
   {
     name: 'State House',
     category: 'Presidency of Nigeria',
-    logo: '/images/clients/state-house.svg',
-    alt: 'State House Nigeria - Federal Republic of Nigeria',
+    logo: '/images/clients/state-house.png',
+    alt: 'Coat of Arms of the Federal Republic of Nigeria — State House',
   },
   {
     name: 'Federal Capital Territory Administration (FCTA)',
     category: 'Municipal Administration',
-    logo: '/images/clients/fcta.svg',
-    alt: 'Federal Capital Territory Administration (FCTA) Abuja',
+    logo: '/images/clients/fcta.png',
+    alt: 'Federal Capital Territory Administration (FCTA) Abuja — official emblem',
   },
   {
     name: 'Sublime Oil and Gas',
@@ -45,7 +45,7 @@ const clients: ClientItem[] = [
   {
     name: 'UPDC',
     category: 'Property Development PLC',
-    logo: '/images/clients/updc.svg',
+    logo: '/images/clients/updc.png',
     alt: 'UPDC PLC - Property Development Company',
   },
 ];
@@ -72,7 +72,7 @@ export default function Clients() {
                 <img
                   src={logo}
                   alt={alt}
-                  className="max-h-12 w-auto max-w-[210px] object-contain transition-transform duration-300 group-hover:scale-105"
+                  className="max-h-14 w-auto max-w-[210px] object-contain transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
                   width="210"
                   height="48"

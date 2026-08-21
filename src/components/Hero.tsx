@@ -9,7 +9,7 @@ export default function Hero() {
         className="absolute inset-0 bg-cover bg-center"
         style={{
           backgroundImage:
-            "linear-gradient(100deg, rgba(11,37,69,0.94) 20%, rgba(11,37,69,0.75) 60%, rgba(30,84,136,0.55) 100%), url('/images/real-estate.jpg')",
+            "linear-gradient(100deg, rgba(11,37,69,0.94) 20%, rgba(11,37,69,0.75) 60%, rgba(30,84,136,0.55) 100%), url('/images/hero.jpg')",
 
           backgroundSize: 'cover',
           backgroundPosition: 'center',
